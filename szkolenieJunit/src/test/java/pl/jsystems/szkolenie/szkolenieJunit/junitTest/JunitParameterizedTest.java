@@ -70,6 +70,7 @@ public class JunitParameterizedTest extends ConfigJunit {
             assertThat(result).matches("^\\d+$");
             int resultNumber = Integer.parseInt(result);
             assertThat(resultNumber > 0);
+            System.out.println("Test");
         }
 
         enum ParamEnum {
