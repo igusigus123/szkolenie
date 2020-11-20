@@ -144,7 +144,7 @@
                                     allure.results.directory
                                 </name>
                                 <value>
-                                    ${project.build.directory}/target/allure-results
+                                    ${project.build.directory}/allure-results
                                 </value>
                             </property>
                             <property>
