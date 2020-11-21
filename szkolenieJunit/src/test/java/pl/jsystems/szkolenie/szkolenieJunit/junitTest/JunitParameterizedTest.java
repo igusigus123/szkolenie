@@ -13,7 +13,7 @@ import pl.jsystems.szkolenie.szkolenieJunit.ConfigJunit;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@Tags({@Tag("paramTest"), @Tag("junit")})
+
 @DisplayName("Parameterized test")
 public class JunitParameterizedTest extends ConfigJunit {
         @DisplayName("Parameterized test value {0}")
