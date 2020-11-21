@@ -8,7 +8,7 @@ pipeline {
         }
         stage('run') { 
             steps {
-                sh "mvn clean test" 
+                "mvn clean test -Dgroups=${params.groups}"
             }
         }
     }

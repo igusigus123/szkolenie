@@ -11,6 +11,9 @@ import java.util.List;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
+@Tag("junit")
+@Tags({@Tag("Junit"), @Tag("sanity")})
+@DisplayName("Junit test")
 public class JunitTest extends ConfigJunit {
 
         private static final String STRING_TESTOWY = "stringTestowy";
