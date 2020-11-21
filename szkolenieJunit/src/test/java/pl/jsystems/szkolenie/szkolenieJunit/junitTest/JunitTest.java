@@ -28,6 +28,7 @@ public class JunitTest extends ConfigJunit {
             assertTrue(STRING_TESTOWY.contains("st"));
             assertTrue(STRING_TESTOWY.endsWith("wy"));
             assertEquals(STRING_TESTOWY, "stringTestowy");
+            //sdfasfaf
         }
 
         @Tag("second")
