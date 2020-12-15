@@ -26,6 +26,8 @@
         <allure-maven>2.10.0</allure-maven>
         <allure>2.13.6</allure>
         <selenium-java>3.141.59</selenium-java>
+        <guava>27.1-jre</guava>
+        <typesafe>1.4.1</typesafe>
     </properties>
 
     <dependencyManagement>
@@ -123,6 +125,17 @@
                 <groupId>org.seleniumhq.selenium</groupId>
                 <artifactId>selenium-api</artifactId>
                 <version>${selenium-java}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/com.typesafe/config -->
+            <dependency>
+                <groupId>com.typesafe</groupId>
+                <artifactId>config</artifactId>
+                <version>${typesafe}</version>
             </dependency>
 
         </dependencies>
