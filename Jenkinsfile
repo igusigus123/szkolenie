@@ -26,7 +26,7 @@ pipeline {
                               [key: 'allure.tests.management.pattern', value: 'http://tms.company.com/%s'],
                               ],
                               reportBuildPolicy: 'ALWAYS',
-                              results: [[path: 'szkolenieJunit/target/allure-results']]
+                              results: [[path: 'szkolenieJunit/target/allure-results'], [path: 'szkolenieGui/target/allure-results']]
                               ])
                       }
              }
