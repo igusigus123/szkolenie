@@ -20,7 +20,7 @@ import static java.lang.Thread.sleep;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@Tag("Frontend")
+@Tag("frontend")
 @DisplayName("Frontend test")
 public class FrontendTest {
 
