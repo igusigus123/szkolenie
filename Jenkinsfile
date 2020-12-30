@@ -1,9 +1,18 @@
 pipeline {
     agent any
+
+     triggers {
+                cron('0 0 * * 0')
+                githubPush()
+            }
+
     parameters {
      choice(name: 'ENVIRONMENT', choices: ['dev', 'test', 'stage', 'sandbox'], description: 'Choose environment')
      choice(name: 'TAG', choices: ['junit', 'paramTest', 'string', 'wordpress','word', 'frontend', 'login'], description: 'Choose tag')
      choice(name: 'EXTAG', choices: ['', 'junit', 'paramTest', 'string', 'wordpress','word'], description: 'Choose tag')
+     choice(name: 'BROWSER', choices: ['chrome','firefox', 'edge'], description: 'Choose browser type.')
+     choice(name: 'MACHINE', choices: ['remote','local'], description: 'Choose machine type.')
+     string(name: 'REMOTE_URL', defaultValue: 'http://172.20.192.1:4444/wd/hub', description: 'Remote selenium grid url.')
     }
     stages {
         stage('checkout') { 
@@ -13,7 +22,7 @@ pipeline {
         }
         stage('run') { 
             steps {
-                sh "mvn clean test -Dgroups=${params.TAG} -DexcludedGroups=${params.EXTAG} -DENVIRONMENT=${params.ENVIRONMENT}"
+                sh "mvn clean test -Dgroups=${params.TAG} -DexcludedGroups=${params.EXTAG} -DENVIRONMENT=${params.ENVIRONMENT} -DBROWSER=${params.BROWSER} -DMACHINE=${params.MACHINE} -DREMOTE_URL=${params.REMOTE_URL}"
             }
         }
     }

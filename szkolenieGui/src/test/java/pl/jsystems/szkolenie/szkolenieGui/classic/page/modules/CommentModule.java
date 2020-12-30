@@ -6,8 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import pl.jsystems.szkolenie.szkolenieGui.classic.page.BasePage;
 
-public class Comment extends BasePage {
-    public Comment(WebDriver driver) {
+public class CommentModule extends BasePage {
+    public CommentModule(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver,this);
     }

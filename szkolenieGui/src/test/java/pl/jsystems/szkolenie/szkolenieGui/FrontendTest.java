@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import pl.jsystems.szkolenie.szkolenieGui.classic.functional.LoginFunction;
 import pl.jsystems.szkolenie.szkolenieGui.classic.page.*;
+import pl.jsystems.szkolenie.szkolenieGui.classic.page.modules.CommentModule;
 import pl.jsystems.szkolenie.szkolenieGui.config.GuiConfig;
 
 import java.net.URISyntaxException;
@@ -108,37 +109,142 @@ public class FrontendTest {
     }
 
     @DisplayName("Check selected element")
-    @Test
+    @RepeatedTest(10)
     public void selectedElement() {
         driver.get(GuiConfig.BASE_URL);
 
         LoginFunction loginFunction = new LoginFunction(driver);
         loginFunction.login();
         MainUserPage mainUserPage = new MainUserPage(driver);
-        try {
-            sleep(10000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        mainUserPage.avatar.click();
-        try {
-            sleep(10000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            sleep(10000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//        mainUserPage.avatar.click();
+//        try {
+//            sleep(10000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+
+        mainUserPage.waitForElementToBeClickable(mainUserPage.userAvatar);
+        mainUserPage.userAvatar.click();
+
         UserProfilePage userProfilePage = new UserProfilePage(driver);
-        userProfilePage.notificationLabel.click();
-        try {
-            sleep(10000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+//        userProfilePage.notificationLabel.click();
+//        try {
+//            sleep(10000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+
+        int j = 0;
+        boolean displayed = false;
+        while (!displayed) {
+            System.out.println("++++++++++" + j++);
+            try {
+                userProfilePage.notificationLabel.click();
+                displayed = true;
+            } catch (Exception e) {
+                displayed = false;
+                try {
+                    sleep(500);
+                } catch (InterruptedException ex) {
+                    e.printStackTrace();
+                }
+                mainUserPage.userAvatar.click();
+            }
         }
+
         NotificationUserPage notificationUserPage = new NotificationUserPage(driver);
-        notificationUserPage.commentsLabel.click();
-        assertFalse(notificationUserPage.saveSettingsButton.isEnabled());
-        notificationUserPage.likeRingCheckbox.click();
-        assertThat(notificationUserPage.saveSettingsButton.isEnabled());
-        notificationUserPage.saveSettingsButton.click();
+        notificationUserPage.getCommentsLabel().click();
+
+        CommentModule commentModule = notificationUserPage.getCommentModule();
+
+
+//        notificationUserPage.commentsLabel.click();
+//        assertFalse(notificationUserPage.saveSettingsButton.isEnabled());
+//        notificationUserPage.likeRingCheckbox.click();
+//        assertThat(notificationUserPage.saveSettingsButton.isEnabled());
+//        notificationUserPage.saveSettingsButton.click();
+
+        int counter = 0;
+        boolean selected = false;
+        while (!selected & counter < 20) {
+            try {
+                sleep(500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            if (commentModule.likeRingCheckbox.isSelected()) {
+                selected = true;
+            } else {
+                commentModule.likeRingCheckbox.click();
+            }
+            counter++;
+        }
+
+        if (commentModule.saveSettingsButton.isEnabled()) {
+            commentModule.saveSettingsButton.click();
+        }
+
+        assertTrue(commentModule.likeRingCheckbox.isSelected());
+        commentModule.likeRingCheckbox.click();
+
+        if (commentModule.saveSettingsButton.isEnabled()) {
+            commentModule.saveSettingsButton.click();
+        }
+
+        counter = 0;
+        boolean selected2 = true;
+        while (selected2 & counter < 20) {
+            try {
+                sleep(500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            if (!commentModule.likeRingCheckbox.isSelected()) {
+                selected2 = false;
+            } else {
+                commentModule.likeRingCheckbox.click();
+            }
+            counter++;
+        }
+
+        commentModule.saveSettingsButton.click();
+
+        assertFalse(commentModule.likeRingCheckbox.isSelected());
+
+        commentModule.likeRingCheckbox.click();
+
+        if (commentModule.saveSettingsButton.isEnabled()) {
+            commentModule.saveSettingsButton.click();
+        }
+
+        counter = 0;
+        boolean selected3 = false;
+        while (!selected3 & counter < 20) {
+            try {
+                sleep(500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            if (commentModule.likeRingCheckbox.isSelected()) {
+                selected3 = true;
+            } else {
+                commentModule.likeRingCheckbox.click();
+            }
+            counter++;
+        }
+
+        if (commentModule.saveSettingsButton.isEnabled()) {
+            commentModule.saveSettingsButton.click();
+        }
+
+        assertTrue(commentModule.likeRingCheckbox.isSelected());
+
+
     }
 
     @AfterEach

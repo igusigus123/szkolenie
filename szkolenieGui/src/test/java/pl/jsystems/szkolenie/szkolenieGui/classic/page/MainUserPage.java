@@ -17,6 +17,11 @@ public class MainUserPage extends BasePage{
     @FindBy(css = "span[class=masterbar__item-content] .gravatar")
     public WebElement avatar;
 
-
+    public static final String USER_AVATAR = "a[data-tip-target=\"me\"]";
+    @FindBy(css = USER_AVATAR)
+    public WebElement userAvatar;
+//
+//    @FindBy(css = "a[data-tip-target=\"reader\"]")
+//    public WebElement readerLabel;
 
 }
