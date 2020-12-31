@@ -1,8 +1,10 @@
 package pl.jsystems.szkolenie.szkolenieApi;
 
 import io.restassured.RestAssured;
+import io.restassured.response.Response;
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
+import pl.jsystems.szkolenie.szkolenieApi.Service.UserService;
 
 import java.util.List;
 
@@ -60,6 +62,23 @@ public class ApiTest {
         System.out.println(users.toString());
         assertThat(users.get(0).imie).isEqualTo("Piotr");
     }
+    @DisplayName("User with devices split response")
+    @Test
+    public void splitResponse(){
+//        given
+//        when
+        Response response = UserService.returnUserReposnse();
+        List<User> users = UserService.getUsers();
 
+//        then
+        assertThat(response.statusCode()).isEqualTo(200);
+        assertThat(users.get(0).imie).isEqualTo("Piotr");
+        assertThat(users.get(0).nazwisko).isEqualTo("Kowalski");
+        assertThat(users.size()).isEqualTo(2);
+        assertThat(users.get(0).device.get(0).type).isEqualTo("computer");
+        assertThat(users.get(0).device.get(0).deviceModel.get(0).produce).isEqualTo("dell");
+        assertThat(users.get(0).device.get(0).deviceModel.get(0).screenSize).isEqualTo(17);
+        assertThat(users.get(0).device.size()).isEqualTo(2);
+    }
 
 }
