@@ -1,4 +1,4 @@
-package pl.jsystems.szkolenie.szkolenieApi;
+package pl.jsystems.szkolenie.szkolenieApi.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

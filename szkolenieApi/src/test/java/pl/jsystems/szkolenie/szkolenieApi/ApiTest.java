@@ -4,7 +4,9 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
-import pl.jsystems.szkolenie.szkolenieApi.Service.UserService;
+import pl.jsystems.szkolenie.szkolenieApi.model.SimpleUser;
+import pl.jsystems.szkolenie.szkolenieApi.model.User;
+import pl.jsystems.szkolenie.szkolenieApi.service.UserService;
 
 import java.util.List;
 
@@ -17,7 +19,7 @@ public class ApiTest {
 
     @DisplayName("First api test to mocky.io")
     @Test
-    public void firstApiTest(){
+    public void firstApiTest() {
         RestAssured
                 .given()
                 .get("https://run.mocky.io/v3/d3b0627f-997c-4cdb-a862-7258329db88d")
@@ -30,7 +32,7 @@ public class ApiTest {
 
     @DisplayName("User with devices test")
     @Test
-    public void userDevices(){
+    public void userDevices() {
         RestAssured
                 .given()
                 .get("http://www.mocky.io/v2/5a6a58222e0000d0377a7789")
@@ -46,9 +48,10 @@ public class ApiTest {
                 .body("[0].device[0].device.model[0].produce", equalTo("dell"));
 
     }
+
     @DisplayName("User with devices by model")
     @Test
-    public void userDeviceByModel (){
+    public void userDeviceByModel() {
         List<User> users = RestAssured
                 .given()
                 .get("http://www.mocky.io/v2/5a6a58222e0000d0377a7789")
@@ -62,12 +65,13 @@ public class ApiTest {
         System.out.println(users.toString());
         assertThat(users.get(0).imie).isEqualTo("Piotr");
     }
+
     @DisplayName("User with devices split response")
     @Test
-    public void splitResponse(){
+    public void splitResponse() {
 //        given
 //        when
-        Response response = UserService.returnUserReposnse();
+        Response response = UserService.returnUserResponse();
         List<User> users = UserService.getUsers();
 
 //        then
@@ -81,4 +85,11 @@ public class ApiTest {
         assertThat(users.get(0).device.size()).isEqualTo(2);
     }
 
+    @DisplayName("AddUser")
+    @Test
+    public void addUser() {
+        SimpleUser user = new SimpleUser("Paweł", "Dubaj");
+        List<SimpleUser> users = UserService.postUsers(user);
+        System.out.println(users.toString());
+    }
 }
