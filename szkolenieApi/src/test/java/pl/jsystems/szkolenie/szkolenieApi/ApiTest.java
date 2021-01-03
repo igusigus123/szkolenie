@@ -88,8 +88,30 @@ public class ApiTest {
     @DisplayName("AddUser")
     @Test
     public void addUser() {
+        //given
         SimpleUser user = new SimpleUser("Paweł", "Dubaj");
+
+        //when
         List<SimpleUser> users = UserService.postUsers(user);
+
+        //then
         System.out.println(users.toString());
+        assertThat(users).isEmpty();
+    }
+
+
+    @DisplayName("Get simple user by id")
+    @Test
+    public void getSimpleUserByID() {
+        //given
+        long id = 1;
+
+        //when
+        SimpleUser user = UserService.getUser(id);
+
+        //then
+        assertThat(user.name).isEqualTo("Piotr");
+        assertThat(user.surname).isEqualTo("Kowalski");
+
     }
 }

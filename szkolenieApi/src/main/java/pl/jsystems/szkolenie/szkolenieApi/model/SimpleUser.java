@@ -4,9 +4,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class SimpleUser {
     @JsonProperty(required = true)
-    String name;
+    public String name;
     @JsonProperty(required = true)
-    String surname;
+    public String surname;
 
     public SimpleUser(String name, String surname) {
         this.name = name;
