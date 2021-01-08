@@ -24,7 +24,7 @@ import static com.google.common.truth.Truth.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.core.IsNull.notNullValue;
 
-@Tag("Api")
+@Tag("API")
 @DisplayName("ApiTest")
 public class ApiTest {
 
