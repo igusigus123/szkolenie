@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8401403-a160-4403-a2a1-0d02bc342f75" name="Default Changelist" comment="dodanie tagów api">
+      <change beforePath="$PROJECT_DIR$/szkolenie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/szkolenie.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/szkolenieApi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/szkolenieApi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/szkolenieApi/src/test/java/pl/jsystems/szkolenie/szkolenieApi/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/szkolenieApi/src/test/java/pl/jsystems/szkolenie/szkolenieApi/ApiTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kSkMKOXePpMcMwbgMX6cLd4Ug4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="profiler.jvm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\szkolenie\szkolenieApi\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\szkolenie" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.jsystems.szkolenie.szkolenieApi.configuration" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.jsystems.szkolenie.szkolenieApi.model.error" />
+      <recent name="pl.jsystems.szkolenie.szkolenieApi" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ApiTest.azureAuthor">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.azureAuthor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="szkolenieApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.jsystems.szkolenie.szkolenieApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.jsystems.szkolenie.szkolenieApi" />
+      <option name="MAIN_CLASS_NAME" value="pl.jsystems.szkolenie.szkolenieApi.ApiTest" />
+      <option name="METHOD_NAME" value="azureAuthor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.firstApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="szkolenieApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.jsystems.szkolenie.szkolenieApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.jsystems.szkolenie.szkolenieApi" />
+      <option name="MAIN_CLASS_NAME" value="pl.jsystems.szkolenie.szkolenieApi.ApiTest" />
+      <option name="METHOD_NAME" value="firstApiTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.genericInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="szkolenieApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.jsystems.szkolenie.szkolenieApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.jsystems.szkolenie.szkolenieApi" />
+      <option name="MAIN_CLASS_NAME" value="pl.jsystems.szkolenie.szkolenieApi.ApiTest" />
+      <option name="METHOD_NAME" value="genericInteger" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.userDevices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="szkolenieApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.jsystems.szkolenie.szkolenieApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.jsystems.szkolenie.szkolenieApi" />
+      <option name="MAIN_CLASS_NAME" value="pl.jsystems.szkolenie.szkolenieApi.ApiTest" />
+      <option name="METHOD_NAME" value="userDevices" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AzureAuthorsTest.azureAuthors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="szkolenieApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.jsystems.szkolenie.szkolenieApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.jsystems.szkolenie.szkolenieApi" />
+      <option name="MAIN_CLASS_NAME" value="pl.jsystems.szkolenie.szkolenieApi.AzureAuthorsTest" />
+      <option name="METHOD_NAME" value="azureAuthors" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApiTest.azureAuthor" />
+        <item itemvalue="JUnit.AzureAuthorsTest.azureAuthors" />
+        <item itemvalue="JUnit.ApiTest.userDevices" />
+        <item itemvalue="JUnit.ApiTest.genericInteger" />
+        <item itemvalue="JUnit.ApiTest.firstApiTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="Unnamed" created="1605859810298" text="allure-results" recursive="false" caseInsensitive="false" type="JAVA" pattern_context="default" scope_type="PROJECT" scope_descriptor="" history="1">
+      <constraint name="__context__" within="" contains="" />
+    </searchConfiguration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8401403-a160-4403-a2a1-0d02bc342f75" name="Default Changelist" comment="" />
+      <created>1605701339930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605701339930</updated>
+      <workItem from="1605701342127" duration="13203000" />
+      <workItem from="1605774966773" duration="2312000" />
+      <workItem from="1605785713799" duration="8328000" />
+      <workItem from="1605857584202" duration="6410000" />
+      <workItem from="1605877017959" duration="2897000" />
+      <workItem from="1605909297984" duration="3377000" />
+      <workItem from="1605993521629" duration="4749000" />
+      <workItem from="1606049250612" duration="8028000" />
+      <workItem from="1606116644411" duration="6486000" />
+      <workItem from="1606303082303" duration="1529000" />
+      <workItem from="1606654410230" duration="8569000" />
+      <workItem from="1606745238715" duration="11625000" />
+      <workItem from="1606941156549" duration="393000" />
+      <workItem from="1607109370204" duration="5335000" />
+      <workItem from="1607117909237" duration="4621000" />
+      <workItem from="1607123419746" duration="585000" />
+      <workItem from="1607339810846" duration="599000" />
+      <workItem from="1607895399550" duration="4492000" />
+      <workItem from="1608063692418" duration="784000" />
+      <workItem from="1608066300496" duration="1855000" />
+      <workItem from="1608068252662" duration="1780000" />
+      <workItem from="1608070104750" duration="936000" />
+      <workItem from="1608207870687" duration="1664000" />
+      <workItem from="1608234739315" duration="1781000" />
+      <workItem from="1608236591370" duration="1472000" />
+      <workItem from="1608239245512" duration="1822000" />
+      <workItem from="1608241118147" duration="1564000" />
+      <workItem from="1609322885589" duration="1269000" />
+      <workItem from="1609338119452" duration="1776000" />
+      <workItem from="1609339955906" duration="519000" />
+      <workItem from="1609357821136" duration="1768000" />
+      <workItem from="1609359686741" duration="1200000" />
+      <workItem from="1609363393540" duration="1770000" />
+      <workItem from="1609365268210" duration="1769000" />
+      <workItem from="1609367108494" duration="694000" />
+      <workItem from="1609369350482" duration="1805000" />
+      <workItem from="1609404843193" duration="1948000" />
+      <workItem from="1609409396261" duration="1772000" />
+      <workItem from="1609411228787" duration="2184000" />
+      <workItem from="1609413472002" duration="1792000" />
+      <workItem from="1609415321969" duration="1749000" />
+      <workItem from="1609419118239" duration="1478000" />
+      <workItem from="1609420953911" duration="1771000" />
+      <workItem from="1609422770228" duration="732000" />
+      <workItem from="1609429148493" duration="1775000" />
+      <workItem from="1609445557529" duration="1313000" />
+      <workItem from="1609447383878" duration="1776000" />
+      <workItem from="1609449232814" duration="1456000" />
+      <workItem from="1609627774491" duration="1758000" />
+      <workItem from="1609629586089" duration="1073000" />
+      <workItem from="1609680112964" duration="1761000" />
+      <workItem from="1609681931035" duration="644000" />
+      <workItem from="1609704818845" duration="788000" />
+      <workItem from="1609706645444" duration="1769000" />
+      <workItem from="1609708470132" duration="829000" />
+      <workItem from="1609764445969" duration="1882000" />
+      <workItem from="1609766381842" duration="1414000" />
+      <workItem from="1609768854120" duration="1646000" />
+      <workItem from="1609856123721" duration="739000" />
+      <workItem from="1609884011192" duration="739000" />
+      <workItem from="1609925981125" duration="1769000" />
+      <workItem from="1609927834451" duration="1103000" />
+      <workItem from="1609929662948" duration="1878000" />
+      <workItem from="1609931598402" duration="1775000" />
+      <workItem from="1609933444176" duration="1386000" />
+      <workItem from="1610138777227" duration="1262000" />
+      <workItem from="1610141710755" duration="1054000" />
+      <workItem from="1610143655001" duration="571000" />
+      <workItem from="1610144280644" duration="783000" />
+      <workItem from="1610145108663" duration="175000" />
+    </task>
+    <task id="LOCAL-00001" summary="junit first tests, parametrized tests">
+      <created>1605738038910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605738038910</updated>
+    </task>
+    <task id="LOCAL-00002" summary="junit first tests, parametrized tests">
+      <created>1605776649939</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605776649939</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Jenkinsfile">
+      <created>1605792638091</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605792638112</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Jenkinsfile">
+      <created>1605795755420</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605795755446</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Jenkinsfile">
+      <created>1605797019262</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605797019262</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Jenkinsfile">
+      <created>1605861081499</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605861081517</updated>
+    </task>
+    <task id="LOCAL-00007" summary="allure report">
+      <created>1605863400017</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605863400126</updated>
+    </task>
+    <task id="LOCAL-00008" summary="allure in jenkinsfile">
+      <created>1605864543803</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605864543803</updated>
+    </task>
+    <task id="LOCAL-00009" summary="allure in jenkinsfile">
+      <created>1605989019237</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605989019237</updated>
+    </task>
+    <task id="LOCAL-00010" summary="allure in jenkinsfile">
+      <created>1605989970473</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605989970473</updated>
+    </task>
+    <task id="LOCAL-00011" summary="allure in jenkinsfile">
+      <created>1605990277543</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605990277543</updated>
+    </task>
+    <task id="LOCAL-00012" summary="allure in jenkinsfile">
+      <created>1605990355357</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605990355357</updated>
+    </task>
+    <task id="LOCAL-00013" summary="allure in jenkinsfile">
+      <created>1605990506975</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605990506975</updated>
+    </task>
+    <task id="LOCAL-00014" summary="tags in Jenkinsfile">
+      <created>1605994737348</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605994737348</updated>
+    </task>
+    <task id="LOCAL-00015" summary="tags in Jenkinsfile">
+      <created>1605995177796</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605995177796</updated>
+    </task>
+    <task id="LOCAL-00016" summary="tags in Jenkinsfile">
+      <created>1605999015696</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605999015696</updated>
+    </task>
+    <task id="LOCAL-00017" summary="config gui, config environment in Jenkinsfile">
+      <created>1608069975659</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608069975659</updated>
+    </task>
+    <task id="LOCAL-00018" summary="config gui, config environment in Jenkinsfile">
+      <created>1608070234042</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608070234043</updated>
+    </task>
+    <task id="LOCAL-00019" summary="config gui, config environment in Jenkinsfile">
+      <created>1608071384357</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1608071384357</updated>
+    </task>
+    <task id="LOCAL-00020" summary="szkolenieApi module">
+      <created>1609370863764</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1609370863764</updated>
+    </task>
+    <task id="LOCAL-00021" summary="szkolenieApi module">
+      <created>1609412478303</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1609412478304</updated>
+    </task>
+    <task id="LOCAL-00022" summary="szkolenieApi metody post">
+      <created>1609706882073</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1609706882073</updated>
+    </task>
+    <task id="LOCAL-00023" summary="szkolenieApi metody post z id jako zmienną">
+      <created>1609708761253</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1609708761253</updated>
+    </task>
+    <task id="LOCAL-00024" summary="dodanie tagów api">
+      <created>1610141850966</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1610141850966</updated>
+    </task>
+    <task id="LOCAL-00025" summary="dodanie tagów api">
+      <created>1610141935426</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1610141935426</updated>
+    </task>
+    <task id="LOCAL-00026" summary="tag api">
+      <created>1610143832320</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1610143832320</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/User/IdeaProjects/szkolenie/szkolenieJunit" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="junit first tests, parametrized tests" />
+    <MESSAGE value="Jenkinsfile" />
+    <MESSAGE value="allure report" />
+    <MESSAGE value="allure in jenkinsfile" />
+    <MESSAGE value="tags in Jenkinsfile" />
+    <MESSAGE value="config gui, config environment in Jenkinsfile" />
+    <MESSAGE value="szkolenieApi module" />
+    <MESSAGE value="szkolenieApi metody post" />
+    <MESSAGE value="szkolenieApi metody post z id jako zmienną" />
+    <MESSAGE value="tag api" />
+    <MESSAGE value="dodanie tagów api" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodanie tagów api" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1609934017242">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1609934017242" />
+    <state x="403" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610138964752">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="403" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1610138964752" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1609930469185">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1609930469185" />
+    <state x="260" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1606162880723">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="260" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1606162880723" />
+    <state x="211" y="189" width="943" height="350" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1605859810242">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="211" y="189" width="943" height="350" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1605859810242" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1605857641493">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605857641493" />
+    <state x="561" y="261" key="Github.ShareDialog" timestamp="1605702602469">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="561" y="261" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1605702602469" />
+    <state x="488" y="68" key="Github.UntrackedFilesDialog" timestamp="1605702672550">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605702672550" />
+    <state width="1323" height="190" key="GridCell.Tab.0.bottom" timestamp="1610139821047">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="190" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610139821047" />
+    <state width="1323" height="190" key="GridCell.Tab.0.center" timestamp="1610139821046">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="190" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610139821046" />
+    <state width="1323" height="190" key="GridCell.Tab.0.left" timestamp="1610139821046">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="190" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610139821046" />
+    <state width="1323" height="190" key="GridCell.Tab.0.right" timestamp="1610139821047">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="190" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610139821047" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1609449919972">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609449919972" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1609449919972">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1609449919972" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1609449919971">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1609449919971" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1609449919972">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1609449919972" />
+    <state x="321" y="125" key="MultipleFileMergeDialog" timestamp="1610142006794">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="321" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1610142006794" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1610144964964">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1610144964964" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1610142027190">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610142027190" />
+    <state x="389" y="44" width="587" height="684" key="find.popup" timestamp="1606056391575">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="44" width="587" height="684" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1606056391575" />
+    <state x="449" y="76" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605989916266">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="449" y="76" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1605989916266" />
+    <state x="65" y="24" key="new project wizard" timestamp="1609323451591">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="24" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1609323451591" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/szkolenieGui/src/test/java/pl/jsystems/szkolenie/szkolenieGui/FrontendTest.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/szkolenieGui/src/test/java/pl/jsystems/szkolenie/szkolenieGui/FrontendTest.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/szkolenieGui/src/test/java/pl/jsystems/szkolenie/szkolenieGui/ActionTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/szkolenieGui/src/test/java/pl/jsystems/szkolenie/szkolenieGui/WindowsTest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/szkolenieGui/src/test/java/pl/jsystems/szkolenie/szkolenieGui/WindowsTest.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/szkolenieGui/src/test/java/pl/jsystems/szkolenie/szkolenieGui/WindowsTest.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/szkolenieGui/src/test/java/pl/jsystems/szkolenie/szkolenieGui/WindowsTest.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/szkolenieGui/src/test/java/pl/jsystems/szkolenie/szkolenieGui/WindowsTest.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/szkolenieApi/src/main/java/pl/jsystems/szkolenie/szkolenieApi/service/UserService.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/szkolenieApi/src/main/java/pl/jsystems/szkolenie/szkolenieApi/specification/Specification.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/szkolenie$Classic_checkUser.ic" NAME="Classic.checkUser Coverage Results" MODIFIED="1606118809474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>pl.jsystems.szkolenie.szkolenieGui.*</FILTER>
+    </SUITE>
+  </component>
+</project>
