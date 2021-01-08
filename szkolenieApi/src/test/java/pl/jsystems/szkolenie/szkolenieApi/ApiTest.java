@@ -4,6 +4,8 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Tags;
 import pl.jsystems.szkolenie.szkolenieApi.model.AzureUser;
 import pl.jsystems.szkolenie.szkolenieApi.model.GenericUser;
 import pl.jsystems.szkolenie.szkolenieApi.model.SimpleUser;
@@ -23,6 +25,7 @@ import static com.google.common.truth.Truth.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.core.IsNull.notNullValue;
 
+@Tag("API")
 @DisplayName("ApiTest")
 public class ApiTest {
 
