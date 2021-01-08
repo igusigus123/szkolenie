@@ -11,5 +11,11 @@
         <module name="szkolenieJunit" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="szkolenie" target="1.5" />
+      <module name="szkolenieApi" target="1.8" />
+      <module name="szkolenieGui" target="1.8" />
+      <module name="szkolenieJunit" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
