@@ -1,0 +1,16 @@
+pl\jsystems\szkolenie\szkolenieApi\service\AzureService.class
+pl\jsystems\szkolenie\szkolenieApi\model\DeviceModel.class
+pl\jsystems\szkolenie\szkolenieApi\model\User.class
+pl\jsystems\szkolenie\szkolenieApi\model\SimpleUser.class
+pl\jsystems\szkolenie\szkolenieApi\service\Service.class
+pl\jsystems\szkolenie\szkolenieApi\service\UserService$2.class
+pl\jsystems\szkolenie\szkolenieApi\model\error\ErrorResponse.class
+pl\jsystems\szkolenie\szkolenieApi\model\error\SingleError.class
+pl\jsystems\szkolenie\szkolenieApi\service\UserService$1.class
+pl\jsystems\szkolenie\szkolenieApi\service\UserService.class
+pl\jsystems\szkolenie\szkolenieApi\service\AzureServiceByPawel.class
+pl\jsystems\szkolenie\szkolenieApi\model\Device.class
+pl\jsystems\szkolenie\szkolenieApi\model\AzureUser.class
+pl\jsystems\szkolenie\szkolenieApi\specification\Specification.class
+pl\jsystems\szkolenie\szkolenieApi\configuration\ApiConfig.class
+pl\jsystems\szkolenie\szkolenieApi\model\GenericUser.class

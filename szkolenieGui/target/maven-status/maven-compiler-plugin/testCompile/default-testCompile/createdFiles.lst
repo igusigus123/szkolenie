@@ -1,0 +1,9 @@
+pl\jsystems\szkolenie\szkolenieGui\FrontendTest.class
+pl\jsystems\szkolenie\szkolenieGui\classic\page\BasePage.class
+pl\jsystems\szkolenie\szkolenieGui\classic\page\MainUserPage.class
+pl\jsystems\szkolenie\szkolenieGui\classic\page\modules\Comment.class
+pl\jsystems\szkolenie\szkolenieGui\classic\functional\LoginFunction.class
+pl\jsystems\szkolenie\szkolenieGui\classic\page\LoginPage.class
+pl\jsystems\szkolenie\szkolenieGui\classic\page\UserProfilePage.class
+pl\jsystems\szkolenie\szkolenieGui\classic\page\MainWordpressPage.class
+pl\jsystems\szkolenie\szkolenieGui\classic\page\NotificationUserPage.class
