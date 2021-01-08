@@ -9,9 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8401403-a160-4403-a2a1-0d02bc342f75" name="Default Changelist" comment="dodanie tagów api">
-      <change beforePath="$PROJECT_DIR$/szkolenie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/szkolenie.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/szkolenieApi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/szkolenieApi/src/test/java/pl/jsystems/szkolenie/szkolenieApi/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/szkolenieApi/src/test/java/pl/jsystems/szkolenie/szkolenieApi/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/szkolenieGui/szkolenieGui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/szkolenieGui/szkolenieGui.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,15 +81,13 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ApiTest.azureAuthor">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApiTest.azureAuthor" />
         <item itemvalue="JUnit.AzureAuthorsTest.azureAuthors" />
         <item itemvalue="JUnit.ApiTest.userDevices" />
         <item itemvalue="JUnit.ApiTest.genericInteger" />
         <item itemvalue="JUnit.ApiTest.firstApiTest" />
+        <item itemvalue="JUnit.ApiTest.azureAuthor" />
       </list>
     </recent_temporary>
   </component>
@@ -267,6 +265,7 @@
       <workItem from="1610143655001" duration="571000" />
       <workItem from="1610144280644" duration="783000" />
       <workItem from="1610145108663" duration="175000" />
+      <workItem from="1610146987222" duration="742000" />
     </task>
     <task id="LOCAL-00001" summary="junit first tests, parametrized tests">
       <created>1605738038910</created>
@@ -545,22 +544,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="68" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605702672550" />
-    <state width="1323" height="190" key="GridCell.Tab.0.bottom" timestamp="1610139821047">
+    <state width="1323" height="190" key="GridCell.Tab.0.bottom" timestamp="1610146333857">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="190" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610139821047" />
-    <state width="1323" height="190" key="GridCell.Tab.0.center" timestamp="1610139821046">
+    <state width="1323" height="190" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610146333857" />
+    <state width="1323" height="190" key="GridCell.Tab.0.center" timestamp="1610146333856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="190" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610139821046" />
-    <state width="1323" height="190" key="GridCell.Tab.0.left" timestamp="1610139821046">
+    <state width="1323" height="190" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610146333856" />
+    <state width="1323" height="190" key="GridCell.Tab.0.left" timestamp="1610146333856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="190" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610139821046" />
-    <state width="1323" height="190" key="GridCell.Tab.0.right" timestamp="1610139821047">
+    <state width="1323" height="190" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610146333856" />
+    <state width="1323" height="190" key="GridCell.Tab.0.right" timestamp="1610146333857">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="190" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610139821047" />
+    <state width="1323" height="190" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610146333857" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1609449919972">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -585,10 +584,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1610144964964" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1610142027190">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1610147056022">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610142027190" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610147056022" />
     <state x="389" y="44" width="587" height="684" key="find.popup" timestamp="1606056391575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
