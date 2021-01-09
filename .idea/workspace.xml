@@ -8,10 +8,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8401403-a160-4403-a2a1-0d02bc342f75" name="Default Changelist" comment="dodanie tagów api">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/src/test/java/pl/jsystems/szkolenie/szkolenieApi/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/szkolenieApi/src/test/java/pl/jsystems/szkolenie/szkolenieApi/ApiTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="c8401403-a160-4403-a2a1-0d02bc342f75" name="Default Changelist" comment="testy tagów api" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -255,7 +252,7 @@
       <workItem from="1610145108663" duration="175000" />
       <workItem from="1610146987222" duration="742000" />
       <workItem from="1610223778346" duration="1224000" />
-      <workItem from="1610225756238" duration="412000" />
+      <workItem from="1610225756238" duration="1063000" />
     </task>
     <task id="LOCAL-00001" summary="junit first tests, parametrized tests">
       <created>1605738038910</created>
@@ -439,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610143832320</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="testy tagów api">
+      <created>1610226204579</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1610226204579</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,7 +503,8 @@
     <MESSAGE value="szkolenieApi metody post z id jako zmienną" />
     <MESSAGE value="tag api" />
     <MESSAGE value="dodanie tagów api" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodanie tagów api" />
+    <MESSAGE value="testy tagów api" />
+    <option name="LAST_COMMIT_MESSAGE" value="testy tagów api" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1609934017242">
@@ -574,10 +579,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1610144964964" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1610147056022">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1610226218951">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610147056022" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610226218951" />
     <state x="389" y="44" width="587" height="684" key="find.popup" timestamp="1606056391575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
