@@ -11,7 +11,6 @@
     <list default="true" id="c8401403-a160-4403-a2a1-0d02bc342f75" name="Default Changelist" comment="dodanie tagów api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/szkolenieApi/src/test/java/pl/jsystems/szkolenie/szkolenieApi/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/szkolenieApi/src/test/java/pl/jsystems/szkolenie/szkolenieApi/ApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieGui/szkolenieGui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/szkolenieGui/szkolenieGui.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,17 +80,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ApiTest.azureAuthor">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApiTest.azureAuthor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="szkolenieApi" />
       <extension name="coverage">
@@ -266,6 +254,8 @@
       <workItem from="1610144280644" duration="783000" />
       <workItem from="1610145108663" duration="175000" />
       <workItem from="1610146987222" duration="742000" />
+      <workItem from="1610223778346" duration="1224000" />
+      <workItem from="1610225756238" duration="412000" />
     </task>
     <task id="LOCAL-00001" summary="junit first tests, parametrized tests">
       <created>1605738038910</created>
