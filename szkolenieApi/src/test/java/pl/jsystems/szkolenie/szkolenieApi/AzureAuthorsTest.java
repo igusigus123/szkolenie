@@ -12,7 +12,7 @@ import java.util.List;
 
 import static com.google.common.truth.Truth.assertThat;
 
-//@Tags({@Tag("API"), @Tag("Azure")})
+@Tags({@Tag("API"), @Tag("Azure")})
 @DisplayName("Azure authors test")
 public class AzureAuthorsTest {
 
