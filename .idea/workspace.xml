@@ -9,8 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8401403-a160-4403-a2a1-0d02bc342f75" name="Default Changelist" comment="testy tagów api">
-      <change afterPath="$PROJECT_DIR$/szkolenieApi/src/test/java/pl/jsystems/szkolenie/szkolenieApi/ApiTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JenkinsfileApi" beforeDir="false" afterPath="$PROJECT_DIR$/JenkinsfileApi" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +271,7 @@
       <workItem from="1610225756238" duration="1063000" />
       <workItem from="1610228154488" duration="746000" />
       <workItem from="1610230230846" duration="1290000" />
-      <workItem from="1610232245920" duration="177000" />
+      <workItem from="1610232245920" duration="836000" />
     </task>
     <task id="LOCAL-00001" summary="junit first tests, parametrized tests">
       <created>1605738038910</created>
@@ -476,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610231879205</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="testy tagów api">
+      <created>1610232445417</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1610232445417</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,10 +619,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1610144964964" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1610231894897">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1610232500410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610231894897" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610232500410" />
     <state x="389" y="44" width="587" height="684" key="find.popup" timestamp="1606056391575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
