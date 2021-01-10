@@ -13,7 +13,7 @@ import static com.google.common.truth.Truth.assertThat;
 
 @Tags({@Tag("API"), @Tag("Azure")})
 @DisplayName("Azure authors test nottation2")
-public class AzureAuthorsTest2 {
+public class Azure2AuthorsTest {
 
     @DisplayName("Get azure authors.")
     @Test

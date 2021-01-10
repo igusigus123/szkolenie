@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 @Tag("API")
 @DisplayName("ApiTest2")
-public class ApiTest2 {
+public class Api2Test {
     @DisplayName("First api test to mocky.io")
     @Test
     public void firstApiTest() {
