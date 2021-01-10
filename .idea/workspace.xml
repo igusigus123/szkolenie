@@ -10,42 +10,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c8401403-a160-4403-a2a1-0d02bc342f75" name="Default Changelist" comment="testy tagów api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/allure-results/1e911fc5-e507-4e9b-8f4e-a17eee22ec81-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/allure-results/32cf32c1-3454-4419-bbd9-b0397d98874c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/allure-results/3c61b19d-a52d-4a6a-8850-37d69dcec460-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/allure-results/50009adb-675c-489d-9a43-1dc3524836b8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/allure-results/71488cd8-b219-4ade-ad3c-6cbb17877ee3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/allure-results/722aa6c0-346f-4a47-879b-61c5cdc30f54-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/allure-results/c70981bb-ae70-4f32-85d2-0370f46ee592-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/allure-results/cc5d581e-0b8e-4cfb-beda-70e2e9b9e360-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/allure-results/eccf84ee-2136-4292-a2fa-d4d3d52170d2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/src/test/java/pl/jsystems/szkolenie/szkolenieApi/AzureAuthorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/szkolenieApi/src/test/java/pl/jsystems/szkolenie/szkolenieApi/RenameAzureAuthorsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/0513d007-2a0e-4bd7-8cc6-600918f1d519-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/0e290106-9b5e-4edb-a875-c586e0f015e3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/1085dcc2-897b-4924-a7dc-6575499ae058-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/1228df3e-162e-4f74-ac0a-56dfb5bddacc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/1f00891e-9e2a-4a67-8293-206886bea3c1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/22d59b3f-6852-4576-82d1-02f7181d2d40-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/25359a52-ce02-4a1a-8430-38daf3f5006c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/2ab43f94-7b77-49ee-bc55-deaae5a8c60d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/4fbd84f7-64f6-459f-8030-7fab0aaf4303-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/5cf62b4c-f9d4-441c-8d88-f1a877730775-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/711c3ffc-829f-4821-adfe-903158e9996a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/79201075-3db9-42e6-8e3c-42243a2f53d3-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/8ed4fc3b-05c7-42f7-ba9e-3aa0b28218a9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/9114ce62-59a8-44e9-b505-b10735312178-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/a15594ef-5d8c-48ff-a6b5-7c077bb4ef5e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/a3132f5b-a21c-4542-8f9c-7ab244028c1c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/a8fe6f61-d672-4543-af50-bfb2a8d42848-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/acf2dd1e-12a7-4584-92f0-adfc1c3e6a8f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/b3a370e4-fa11-4c75-9253-74b9e837085c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/b71a5aba-0227-48b0-a13e-9b9b5bfaa2ad-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/c3becd55-4307-4709-b9f0-d1a206ebd809-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/cb238671-b559-46b0-8948-c7056401d9be-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/cd0497ad-a608-4c10-9789-83aa8ada6d8a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/d6e21e60-5e03-41ba-b29c-0af5ef7853db-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/d818a5f3-ae3c-49f0-9cbd-0d956f58758c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/szkolenieApi/target/allure-results/f5f2fe28-9173-4553-aa90-10a2b2dd4f36-result.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,17 +80,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ApiTest.azureAuthor">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApiTest.azureAuthor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="szkolenieApi" />
       <extension name="coverage">
@@ -306,7 +259,7 @@
       <workItem from="1610228154488" duration="746000" />
       <workItem from="1610230230846" duration="1290000" />
       <workItem from="1610232245920" duration="1821000" />
-      <workItem from="1610234190659" duration="468000" />
+      <workItem from="1610234190659" duration="1413000" />
     </task>
     <task id="LOCAL-00001" summary="junit first tests, parametrized tests">
       <created>1605738038910</created>
@@ -539,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610233727567</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="testy tagów api">
+      <created>1610234673759</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1610234673759</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,10 +635,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1610144964964" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1610233741681">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1610234688289">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610233741681" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610234688289" />
     <state x="389" y="44" width="587" height="684" key="find.popup" timestamp="1606056391575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
